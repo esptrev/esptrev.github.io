@@ -1,0 +1,53 @@
+body {
+    background: #454545;
+}
+
+.rounded-profile {
+    width: 175px;
+    height: 175px;
+    border-radius: 100px;
+}
+#profile_pic_div{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+#name_div{
+    display: flex;
+    justify-content: center;
+    font-family: serif Norfolk;
+    font-size: xxx-large;
+    color: azure;
+}
+#developer_div{
+    display: flex;
+    justify-content: center;
+    font-family: serif Norfolk;
+    font-size: xx-large;
+    color: azure;
+}
+#location_div{
+    display: flex;
+    justify-content: center;
+    font-family: serif Norfolk;
+    font-size: x-large;
+    color: azure;
+    margin-bottom: 3rem;
+}
+
+#skyline_pic_div{
+   display: flex;
+    justify-content: center;
+    border: solid white 1rem;
+}
+#resume_link{
+    display: flex;
+    justify-content: center;
+    font-family: serif Norfolk;
+    color: azure;
+    font-size: large;
+}
+h2 {
+    color: azure;
+    font-family: serif Norfolk;
+}
