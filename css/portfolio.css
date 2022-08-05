@@ -38,7 +38,7 @@ body {
 #skyline_pic_div{
    display: flex;
     justify-content: center;
-    border: solid white 1rem;
+
 }
 #resume_link{
     display: flex;
@@ -63,4 +63,9 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#skyline{
+    max-width: 1300px;
+    height: auto;
 }
