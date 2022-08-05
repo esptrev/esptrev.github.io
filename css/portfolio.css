@@ -1,5 +1,5 @@
 body {
-    background: #454545;
+    background: #939090;
 }
 
 .rounded-profile {
@@ -50,4 +50,17 @@ body {
 h2 {
     color: azure;
     font-family: serif Norfolk;
+}
+
+#links_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.link_anchors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
