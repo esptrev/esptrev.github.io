@@ -1,5 +1,5 @@
 body {
-    background: #939090;
+    background: #696767;
 }
 
 .rounded-profile {
@@ -68,4 +68,15 @@ h2 {
 #skyline{
     max-width: 1300px;
     height: auto;
+}
+
+#about_me{
+    text-align: center;
+    color: white;
+    font-size: large;
+    text-indent: 20px;
+
+}
+#about_me_article{
+    height: 10rem;
 }

@@ -2,42 +2,62 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="author" content="Trevor Esparza" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="author" content="Trevor Esparza"/>
 	<meta name="projects" content="Web development projects"/>
-	<meta name="headshot" content="" />
-	<meta name="description" content="Web development projects portfolio" />
-	<meta name="url" content="//www.esptrev.github.io" />
+	<meta name="headshot" content=""/>
+	<meta name="description" content="Web development projects portfolio"/>
+	<meta name="url" content="//www.esptrev.github.io"/>
 	<title>Trevor Esparza</title>
 	<link rel="stylesheet" href="./css/portfolio.css">
 </head>
 <body>
-<div id="profile_pic_div">
-	<img class="rounded-profile" src="img/codeup2-22-0190.jpg" alt="Profile Picture">
+<div id="top_level_container">
+	<div id="profile_pic_div">
+		<img class="rounded-profile" src="img/codeup2-22-0184.jpg" alt="Profile Picture">
+	</div>
+	<article id="name_div">Trevor Esparza</article>
+	<article id="developer_div">Full Stack Developer</article>
+	<article id="location_div">San Antonio,Tx</article>
+	<p>
+		<a href="docs/Trevor_Esparza.pdf" target="_blank" id="resume_link">
+			Résumé
+		</a>
+	</p>
+	<div id="skyline_pic_div">
+		<img id="skyline" src="img/pexels-pixabay-45182.jpg" alt="San Antonio Skyline Picture">
+	</div>
 </div>
-<article id="name_div">Trevor Esparza</article>
-<article id="developer_div">Full Stack Developer</article>
-<article id="location_div">San Antonio,Tx</article>
-<p>
-	<a href="docs/Trevor_Esparza.pdf"target="_blank" id="resume_link">
-	 Résumé
-	</a>
-</p>
-<div id="skyline_pic_div">
-	<img id="skyline" src="img/pexels-pixabay-45182.jpg" alt="San Antonio Skyline Picture">
-</div>
+<hr/>
 <section id="nuts_bolts">
-	<article>
+	<article id="about_me_article">
 		<h2>About Me</h2>
-		<p>Some interesting stuff goes here</p>
+		<p id="about_me">Born and bred in Texas. My wonderful wife and I call San Antonio home where together we raise
+			our son. Spent the first half of my career producing high quality animal art for some of the best shops in
+			Texas. Looking for an opportunity to bring that passion to the world of software development. When I don't
+			have my fingers on the keys, I like to head to Port Aransas with the family. </p>
 	</article>
+	<hr/>
 	<article>
 		<h2>Development Projects</h2>
+		<div>
+			<div id="clear_to_close_div">
+				<a class="portfolio-item" href="https://thectoc.com:8080/" target="_blank">
+					<h3>Clear To Close</h3>
+				</a>
+					<div>
+						<div class="caption-content">
+							<p>Is a full-stack application that streamlines the home buying and selling process. The front-end is a user-friendly display that was composed using HTML, Tailwind CSS, Bootstrap JS and Jquery. Clear To Close uses a MySql database to track users and listings, along with an AWS S3 database for file upload.. Listing details are pulled through an outside API that is secured through Spring Boot. Users can register and login securly using Spring Security, OAuth 2.0 and JWT’s. The back-end is served with Spring Boot and custom API endpoints.The deployed project is hosted on an EC2 server and managed through GitHub Actions for CI/CD.</p>
+						</div>
+					</div>
+					<img class="img-fluid" src="img/logo%20copy.jpg" alt="..."/>
+			</div>
+		</div>
 	</article>
 	<section>
 		<div>
-			<hr />
-			<nav  id='links_container'>
+			<hr/>
+			<nav id='links_container'>
 				<div>
 					<div class="link_anchors">
 						<a href="https://github.com/esptrev" class="icon is-large" target="_blank">
