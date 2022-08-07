@@ -38,22 +38,85 @@
 			have my fingers on the keys, I like to head to Port Aransas with the family. </p>
 	</article>
 	<hr/>
-	<article>
+	<div>
 		<h2>Development Projects</h2>
-		<div>
-			<div id="clear_to_close_div">
-				<a class="portfolio-item" href="https://thectoc.com:8080/" target="_blank">
+		<div id="projects_container">
+			<div class="project_card" id="ctc_card">
+				<a class="portfolio-item" href="https://thectoc.com:8080/" target="_blank"><span class="link"></span></a>
+				<div id="clear_to_close_div">
 					<h3>Clear To Close</h3>
-				</a>
 					<div>
 						<div class="caption-content">
-							<p>Is a full-stack application that streamlines the home buying and selling process. The front-end is a user-friendly display that was composed using HTML, Tailwind CSS, Bootstrap JS and Jquery. Clear To Close uses a MySql database to track users and listings, along with an AWS S3 database for file upload.. Listing details are pulled through an outside API that is secured through Spring Boot. Users can register and login securly using Spring Security, OAuth 2.0 and JWT’s. The back-end is served with Spring Boot and custom API endpoints.The deployed project is hosted on an EC2 server and managed through GitHub Actions for CI/CD.</p>
+							<p>Is a full-stack application that streamlines the home buying and selling process. The
+								front-end is a user-friendly display that was composed using HTML, Tailwind CSS,
+								Bootstrap JS and Jquery. Clear To Close uses a MySql database to track users and
+								listings, along with an AWS S3 database for file upload.. Listing details are pulled
+								through an outside API that is secured through Spring Boot. Users can register and login
+								securly using Spring Security, OAuth 2.0 and JWT’s. The back-end is served with Spring
+								Boot and custom API endpoints.The deployed project is hosted on an EC2 server and
+								managed through GitHub Actions for CI/CD.</p>
 						</div>
 					</div>
-					<img class="img-fluid" src="img/logo%20copy.jpg" alt="..."/>
+				</div>
+
+			</div>
+			<div class="project_card" id="movie_card">
+				<a class="portfolio-item" href="https://thectoc.com:8080/" target="_blank"><span class="link"></span></a>
+				<div id="movie_api_div">
+						<h3>Movie Collection</h3>
+					<div>
+						<div class="caption-content">
+							<p>Full stack project creating a personal movie database. Allowed users to query IMDb db through a RESTful API. Movies were then added to a  SQL db allowing personal edits to ratings, plots and supporting actors/actresses. Program features an API developed using Java and MySQL. Front end utilized Javascript, Flex-box, Bootstrap, HTML, CSS, and jQuery to manipulate the DOM and its elements.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="project_card" id="coffee_card">
+				<a class="portfolio-item" href="https://thectoc.com:8080/" target="_blank"><span class="link"></span></a>
+				<div id="weather_map_div">
+						<h3>Coffee Bistro</h3>
+					<div>
+						<div class="caption-content">
+							<p>Local coffee bistro landing page.  Users can search through brew selection and submit their own brew to the page. Scripting was handled using Javascript and jQuery.  Styling was implemented using CSS and Bootstrap</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="project_card" id="pokemon_dex">
+				<a class="portfolio-item" href="https://thectoc.com:8080/" target="_blank"><span class="link"></span></a>
+				<div id="pokemon_div">
+					<h3>Pokemon</h3>
+					<div>
+						<div class="caption-content">
+							<p>React.js project which consumes data from Poke API. Written using functional component architecture, using hooks for life cycle handling</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="project_card" id="react_expense">
+				<a class="portfolio-item" href="https://thectoc.com:8080/" target="_blank"><span class="link"></span></a>
+				<div id="react_expense_tracker_div">
+					<h3>Expense Tracker</h3>
+					<div>
+						<div class="caption-content">
+							<p>Expense tracker scripted using React.js. Styling handled with CSS modules. Data currently persist only in session storage. Users can filter expenses by year with a dynamic month - month comparison chart</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="project_card" id="weather_card">
+				<a class="portfolio-item" href="https://thectoc.com:8080/" target="_blank"><span class="link"></span></a>
+				<div id="coffee_bistro_div">
+					<h3>Weather Map</h3>
+					<div>
+						<div class="caption-content">
+							<p>Solo development project featuring an interactive map with local weather functionality. Map and corresponding weather information were filtered from Mapbox API and Open weather API using AJAX to pull the data, vanilla JS to manipulate JSON objects, and Jquery to dynamically manipulate the DOM for a dynamic experience. Styling was handled using CSS, BootStrap.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</article>
+	</div>
 	<section>
 		<div>
 			<hr/>
